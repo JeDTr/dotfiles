@@ -1,0 +1,13 @@
+[alias]
+  ck = checkout
+  ckb = checkout -b
+  ckf = !git checkout $(git branch | fzf)
+  br = branch
+  cm = commit
+  cmae = commit --amend
+  cma = commit --amend --no-edit
+  st = status
+  pom = push origin master
+  fpom = push -f origin master
+  poh = push origin HEAD
+  fpoh = push -f origin HEAD
